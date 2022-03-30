@@ -279,10 +279,10 @@ div .our-value-clip-title {
 	font-style: normal;
 	font-size: 180px;
 	font-weight: 400;
-	background-image: url('file:///Volumes/GoogleDrive-107393633732464373517/Mi%20unidad/DW%20Projects/Pruebas/images/water-rose.jpeg');
+	background-image: url('file:///Volumes/GoogleDrive-107393633732464373517/Mi%20unidad/DW%20Projects/Bio%20Green/images/water-rose.jpeg');
 	background-size: cover;
 	background-position-y: center;
-	 
+	
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
