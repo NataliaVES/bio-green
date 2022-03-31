@@ -306,7 +306,8 @@ div .our-value-clip-title {
 
  .clip-title {
 	width: 90%;
-	margin-bottom: 10px;
+	display: block;
+	margin: auto auto 10px auto;
 	color: transparent;
 	text-align: center;
 	text-transform: uppercase;
