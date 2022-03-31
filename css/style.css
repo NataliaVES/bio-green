@@ -313,7 +313,11 @@ div .our-value-clip-title {
 	font-family: 'Fredoka One', cursive;
 	font-size: 180px;
 	font-weight: 400;
+<<<<<<< Updated upstream
 	background-image: url('file:///Volumes/GoogleDrive-107393633732464373517/Mi%20unidad/DW%20Projects/Bio%20Green%20-%20Git/bio-green/images/water-rose.jpeg');
+=======
+	background-image: url('file:///Volumes/GoogleDrive-107393633732464373517/Mi%20unidad/DW%20Projects/Bio%20Green/images/water-rose.jpeg');
+>>>>>>> Stashed changes
 	background-size: cover;
 	background-position-y: center;
 	
