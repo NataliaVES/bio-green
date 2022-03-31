@@ -330,7 +330,8 @@ div .our-value-clip-title {
 
 .container-our-value .content-our-value p {
 	text-align: center;
-	font-family: bilbo;
+	/*font-family: bilbo;*/
+	font-family: 'Tangerine', serif;
 	font-size: 26px;
 	color: var(--body-text-color);
 }
