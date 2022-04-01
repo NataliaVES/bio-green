@@ -41,19 +41,6 @@
 <body style="padding-top: 70px">
 
 <!-- body code goes here -->
-
-	
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.4.1.min.js"></script>
-
-	
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.4.1.js"></script>
-	  
-	  
-	  
-	  
 <header>
    <div class="container-header">
 		  
@@ -104,7 +91,7 @@
      </div> 
 	--> 
 	
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent scrolling-navbar">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
 			<a class="navbar-brand" href="index.html">
 			  	<img src="images/Blanco Negro Superminimalista Inmobiliaria Logotipo.png" alt="logo" width="100" height="100" class="img-fluid rounded-circle"/>
 			</a>
@@ -434,5 +421,29 @@
 	   </div>
    </footer>
   
+	
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	
+	<script>
+		var nav = document.querySelector("nav");
+		
+		window.addEventListener("scroll", function(){
+			if (window.pageYOffset > 100){
+				nav.classList.add("bg-light", "shadow");
+			}else{
+				nav.classList.remove("bg-light", "shadow")
+			}
+		})
+	</script>
+	
+	  
+	  
 </body>
 </html>
