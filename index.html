@@ -104,7 +104,7 @@
      </div> 
 	--> 
 	
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent scrolling-navbar">
 			<a class="navbar-brand" href="index.html">
 			  	<img src="images/Blanco Negro Superminimalista Inmobiliaria Logotipo.png" alt="logo" width="100" height="100" class="img-fluid rounded-circle"/>
 			</a>
@@ -137,11 +137,8 @@
 	
 			      <form class="form-inline my-2 my-lg-0">
 					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<!--	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718850" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  					<circle cx="10" cy="10" r="7" />
-  					<line x1="21" y1="21" x2="15" y2="15" />
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718850" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" />
 						</svg>
 					</button>
                   </form>
@@ -188,26 +185,26 @@
  		  	 <div class="carousel-inner" role="listbox">
    			    <div class="carousel-item active"> 
       				<h3>
-						<img class="d-block mx-auto" src="images/water-rose.jpeg" alt="Rose Water">
+						<img class="d-block mx-auto" src="images/hair-care.jpeg" alt="Hair Care">
       				</h3>
    	  		   	    <div class="carousel-caption">
-        				<h3>Rose Water</h3>
+        				<h3>Hair Care</h3>
     		   		</div>
     		 	</div>
 				<div class="carousel-item"> 
       				<h3>
-						<img class="d-block mx-auto" src="images/organic-soap.jpeg" alt="Organic Soaps">
+						<img class="d-block mx-auto" src="images/face-care.jpeg" alt="Face care">
       				</h3>
    	  		   	    <div class="carousel-caption">
-        				<h3>Organic Soaps</h3>
+        				<h3>Face care</h3>
     		   		</div>
     		 	</div>
 				<div class="carousel-item"> 
       				<h3>
-						<img class="d-block mx-auto" src="images/rosemary-essential-iol.jpeg" alt="Rosemary essential iol">
+						<img class="d-block mx-auto" src="images/body-care.jpeg" alt="Body care">
       				</h3>
    	  		   	    <div class="carousel-caption">
-        				<h3>Rosemary essential iol</h3>
+        				<h3>Body care</h3>
     		   		</div>
     		 	</div>
 		  	 </div>
@@ -260,7 +257,7 @@
 					</div>
 	      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 		  			<div>
-						<button class="button" type="button">See details</button>
+						<button class="button-default" type="button">See details</button>
 					</div>
 		    	</div>
         	</div>
@@ -277,7 +274,7 @@
 					</div>
 	      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 		  			<div>
-					<button class="button" type="button">See details</button>
+					<button class="button-default" type="button">See details</button>
 					</div>
 		    	</div>
         	</div>
@@ -294,7 +291,7 @@
 					</div>
 	      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
 		  			<div>
-						<button class="button" type="button">See details</button>
+						<button class="button-default" type="button">See details</button>
 					</div>
 		    	</div>
         	</div>
@@ -305,30 +302,37 @@
 	  <section class="blog">
 		<h2>Rescent Posts</h2>
 	    <div class="container-blogs">
-			<div class="container-blog">
-				<img src="images/organic-soap.jpeg" class="img-fluid" alt="Placeholder image">
-           		<div class="container-text-blog ">
-					<h3>Hello, world!</h3>
-					<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-					<a class="button-default" href="#" role="button">Learn more</a>
-            	</div>
+			<div class="container-blog container-blog1">
+				<img src="images/blog-1.jpeg" class="img-fluid" alt="Hair care">
+           		<div class="container-text-blog">
+					<div>
+						<h4>Hello, world!</h4>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."</p>
+					</div>
+					
+					<button class="button-default" id="button-default-blog" href="#" role="button">Learn more</button>
+               </div>
 			</div>
 			
-			<div class="container-blog">
-				<img src="images/organic-soap.jpeg" class="img-fluid" alt="Placeholder image">
-           		<div class="container-text-blog ">
-					<h3>Hello, world!</h3>
-					<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-					<a class="button-default" href="#" role="button">Learn more</a>
+			<div class="container-blog container-blog2">
+				<img src="images/blog-2.jpeg" class="img-fluid" alt="Face care">
+           		<div class="container-text-blog">
+					<div>
+						<h4>Hello, world!</h4>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."</p>
+					</div>
+					<button class="button-default" href="#" role="button">Learn more</button>
             	</div>
-			</div>
+			 </div>
 			
-			<div class="container-blog">
-				<img src="images/organic-soap.jpeg" class="img-fluid" alt="Placeholder image">
-           		<div class="container-text-blog ">
-					<h3>Hello, world!</h3>
-					<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-					<a class="button-default" href="#" role="button">Learn more</a>
+			<div class="container-blog container-blog3">
+				<img src="images/blog-3.jpeg" class="img-fluid" alt="body care">
+           		<div class="container-text-blog">
+					<div>
+						<h4>Hello, world!</h4>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."</p>
+					</div>
+					<button class="button-default" href="#" role="button">Learn more</button>
             	</div>
 			</div>
         </div>

@@ -33,6 +33,35 @@ body {
 	--body-bg-color: #FCF2F3;
 }
 
+
+
+/*Default button*/
+
+.button-default, form div #submit {
+	display: block;
+	margin: 20px auto auto auto;
+	border-radius: 50%;
+	border: 1px solid var(--color-primary);
+	padding: 14px 24px 14px 24px;
+	color: var(--color-primary);
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	text-align: center;
+	background-color: transparent;
+	opacity: 1;	
+}
+
+.button-default:hover, form div #submit:hover {
+	border: 1px solid var(--color-secondary);
+	color: var(--color-secondary);
+	transform: translateY(-2px);
+}
+
+form div #submit {
+	margin-top: 98px;
+}
+
+
 /*Navbar Boostrap top Fixed to top*/
 
 .container-header .redes-sociales p {
@@ -197,7 +226,8 @@ body {
 	color: #FFFFFF;
 	font-family: 'Fredoka One', cursive;
 	font-size: 60px;
-}
+	text-shadow: 1px 1px 22px rgba(88,106,62,0.25);
+}s
 
 @media (max-width:768px) {
 	.carousel-item.active .carousel-caption h3 {
@@ -265,8 +295,8 @@ body {
 
 /*Sections*/
 
-.most-popular-products, .our-value, .blog, .contact {
-	padding: 100px 0px 100px 0px;
+.most-popular-products, .our-value, .contact {
+	padding: 100px 0 100px 0;
 }
 
 
@@ -428,31 +458,12 @@ div .our-value-clip-title {
 	justify-content: space-between;
 }
 
-.container-cards-products .container-text-card-product p, figcaption p {
+.container-cards-products .container-text-card-product p  {
 	color: var(--body-text-color);
 	text-align: center;
-	margin-top: 32px;
+	margin-top: 12px;
 }
 
-.container-cards-products .container-text-card-product .button {
-	display: block;
-	margin: 20px auto auto auto;
-	border-radius: 50%;
-	border: 1px solid var(--color-primary);
-	padding: 14px 24px 14px 24px;
-	color: var(--color-primary);
-	font-family: 'Fredoka One', cursive;
-	font-size: 20px;
-	text-align: center;
-	background-color: transparent;
-	opacity: 1;	
-}
-
-.container-cards-products .container-text-card-product .button:hover {
-	border: 1px solid var(--body-text-color);
-	color: var(--body-text-color);
-	transform: translateY(-2px);
-}
 
 
 
@@ -495,17 +506,105 @@ V
 	color: var(--color-secondary);
 }
 
- #check:checked ~ .check-btn {
+#check:checked ~ .check-btn {
 	color: var(--color-secondary);
 }
 
- #check2:checked ~ .check-btn2 {
+#check2:checked ~ .check-btn2 {
 	color: var(--color-secondary);
 }
  
 #check3:checked ~ .check-btn3 {
 	color: var(--color-secondary);
 }
+
+
+
+/*Section Blog with Flex-box*/
+
+.blog {
+	background-color: #FFF6AE;
+	padding: 100px 0 0 0;
+}
+
+.blog .container-blog {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.container-blog1 {
+	background-color: #B0E9EB;
+}
+
+.container-blog2 {
+	background-color: #D9BEC1;
+}
+
+.container-blog3 {
+	background-color: #B0E9EB;
+}
+
+.container-blog .img-fluid {
+	width: 40%;
+	height: auto;
+	object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+	.container-blog .img-fluid {
+		width: 100%;
+	}
+}
+
+
+
+.container-blog .container-text-blog {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	flex-wrap: wrap;
+	width: 60%;
+	padding: 40px;
+}
+
+
+@media (max-width: 768px) {
+	.container-blog .container-text-blog {
+		width: 100%;
+	}
+}
+
+
+
+
+.container-blog .container-text-blog div {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+	
+}
+
+.container-blog .container-text-blog div h4 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 22px;
+	color: var(--color-secondary);
+	font-weight: 400;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -564,7 +663,11 @@ V
 	
 }
 
-
+figcaption p {
+	color: var(--body-text-color);
+	text-align: center;
+	margin-top: 32px;
+}
 
 .contact form .contener-input {
 	margin: 0 0 60px 0;
@@ -624,26 +727,6 @@ V
 	border-color: var(--color-secondary);
 }
 
-
-form div #submit {
-	display: block;
-	margin: auto;
-	margin-top: 100px;
-	border-radius: 50%;
-	border: 1px solid var(--color-primary);
-	padding: 14px 24px 14px 24px;
-	text-align: center;
-	font-family: 'Fredoka One', cursive;
-	font-size: 18px;
-	color: var(--color-primary);
-	background-color: transparent;
-}
-
-form div #submit:hover {
-	border: 1px solid var(--body-text-color);
-	color: var(--body-text-color);
-	transform: translateY(-2px);
-}
 
 .container-contact div h3 {
 	font-family: 'Fredoka One', cursive;
