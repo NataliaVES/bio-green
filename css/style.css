@@ -311,7 +311,7 @@ section .most-popular-products {
 	background-color: var(--color-terciary); 
 }
 
-div .our-value-clip-title {
+/*div .our-value-clip-title {
 	background: #000;
 	min-height: 200px;
 	display: flex;
@@ -365,7 +365,27 @@ div .our-value-clip-title {
 		font-size: 72px;	
 }
 	
+}*/
+
+
+.our-value-clip-title img {
+	display: block;
+	margin: auto;
+	width: 88%;	
 }
+
+.our-value-clip-title img:hover {
+	transform: scale(1.14)
+}
+
+
+
+/*@media (max-width:768px) {
+	.our-value-clip-title img {
+		width: 720px;	
+}*/
+
+	
 
 
 .our-value .container-our-value {
