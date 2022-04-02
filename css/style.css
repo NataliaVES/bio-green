@@ -6,11 +6,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/*scroll-behavior: smooth croll;*/
 }
 
 body {
-	background-color: var(--body-bg-color);
+	/*background-color: var(--body-bg-color);*/
 	font-family: 'Indie Flower', cursive;
 	font-size: 22px;
 }
@@ -305,7 +304,11 @@ form div #submit {
 	padding: 100px 0 100px 0;
 }
 
-
+section .most-popular-products.w3-content.w3-section {
+	background-image: url("../images/bg-flowers.jpeg") !important;
+	background-size: cover;
+	heignt: 100%;
+}
 
 /*Section Our value with Flex-box*/
 
