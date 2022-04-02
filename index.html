@@ -89,15 +89,15 @@
 	          </div>
     	  </nav>   
      </div> 
-	--> 
-	
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
-			<a class="navbar-brand" href="index.html">
-			  	<img src="images/logo.png" alt="logo" width="140" height="auto"/>
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+	-->
+	 
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+		<a class="navbar-brand" href="index.html">
+		  	<img src="images/logo.png" alt="logo" width="140" height="auto" class="img-fluid"/>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
 			  	 <span class="navbar-toggler-icon"></span>
-		    </button>
+      </button>
 			
 			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 				  <ul class="navbar-nav mr-auto">
@@ -133,7 +133,7 @@
 				
 			<div class="redes-sociales">
 		          <p>
-					<a href="#" target="_blank">
+					<a href="index.html" target="">
 						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718850" fill="none" stroke-linecap="round" stroke-linejoin="round">
 					    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 					    <circle cx="6" cy="19" r="2" />
@@ -145,7 +145,7 @@
 		          </p>
 		  
 		          <p>
-					<a href="#" target="_blank">
+					<a href="index.html" target="">
 						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#718850" fill="none" stroke-linecap="round" stroke-linejoin="round">
 					    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 					    <circle cx="12" cy="7" r="4" />
@@ -153,9 +153,9 @@
 					    </svg>
 			   		</a>
 		          </p>
-	          </div>
-        </nav>
-	</div>   
+      </div>
+     </nav>
+  </div>   
 </header>
   
 	   
@@ -430,13 +430,13 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.4.1.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
+<!--<script src="js/bootstrap.bundle.min.js"></script>-->
 	
 	<script>
 		var nav = document.querySelector('nav');
 		
 		window.addEventListener('scroll', function(){
-			if (window.pageYOffset > 100){
+			if (window.pageYOffset > 200){
 				nav.classList.add('bg-transparent', 'shadow');
 			}else{
 				nav.classList.remove('bg-transparent', 'shadow')
